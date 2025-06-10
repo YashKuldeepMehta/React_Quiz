@@ -1,0 +1,46 @@
+
+body, html {
+  height: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #bfbaba; 
+}
+
+.card {
+  background: rgb(242, 237, 237);
+  border-radius: 10px;
+  padding: 1rem;
+  width: 500px; 
+  text-align: center;
+}
+
+.option {
+  width: 80%; 
+  padding: 10px;
+  margin: 8px 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+  display: block;
+  
+}
+
+.option:hover{
+  background-color: rgb(195, 185, 185);
+}
+
+.option.correct {
+  background-color: #d4edda;
+  border-color: #28a745;
+}
+
+.option.wrong {
+  background-color: #f8d7da;
+  border-color: #dc3545;
+}
+
+.option.disabled{
+  cursor:not-allowed;
+  opacity: 0.5;
+}
