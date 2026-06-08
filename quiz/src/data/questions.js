@@ -2,7 +2,7 @@ const questions = [
     {
         id: 1,
         question: "What is the capital of India?",
-        options : ["Mumbai","New Delhi","Chennai","Bangalore"],
+        options : ["Mumbai","New Delhi","Chennai","Kolkata"],
         answer : "New Delhi"
     },
 
