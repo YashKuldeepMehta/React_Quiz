@@ -1,6 +1,3 @@
-import { useState } from "react";
-import questions from "../data/questions";
-import ScoreCard from "./ScoreCard.";
 
 const QuestionCard = () =>{
     const [curIndex, setCurIndex] = useState(0)
